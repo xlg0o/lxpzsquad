@@ -27,7 +27,7 @@ body{
 .rectangle {
     width: 1920px;
     height: 100px;
-    background-color: linear-gradient(#000, #127000);
+    background: linear-gradient(#000, #127000);
 }
 
 #raids{
@@ -129,7 +129,7 @@ ul.hr {
     padding: 4px; /* Значение полей */
     }
 ul.hr li {
-    margin-top: 10  0px;
+    margin-top: 100px;
     font-size: 50px;
     margin-left: 0;
     display: inline; /* Отображать как строчный элемент */
