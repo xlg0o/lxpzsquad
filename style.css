@@ -63,14 +63,20 @@ h2 {
     z-index: 20;
 }
 
-.vidos{
-    left: -20px;
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
     position: relative;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
+    height: 100%;
     width: 100%;
-    padding: 20px;
+    padding-top:45%;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
 }
 
 .ssyl{
@@ -94,6 +100,7 @@ h2 {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
     top: 28px;
     z-index: 30;
     height: auto;
@@ -145,6 +152,7 @@ li{
     padding:100px; 
     width: 50px;
     height: 20px;
+    margin-left: 0px;
 }
 
 .hr a:hover{
